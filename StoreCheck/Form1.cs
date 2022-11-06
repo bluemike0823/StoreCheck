@@ -44,7 +44,7 @@ namespace StoreCheck
         
 
         public static SerialPort port = new SerialPort("com11", 9600, Parity.None, 8, StopBits.One);
-        public static string URL = "http://192.168.1.12/fmo/jsp/api/storechk_api.jsp?";
+        public static string URL = "../storechk_api.jsp?";
         public static string[] myclass = { "EGUI-29176610", "EGUI-12974203", "EGUI-23530966", "EGUI-84945045" };
         //public static string[] paths = { @"192.168.2.21", @"192.168.200.2" };
         public static string[] paths = { @"192.168.200.1",@"192.168.200.2", @""};
