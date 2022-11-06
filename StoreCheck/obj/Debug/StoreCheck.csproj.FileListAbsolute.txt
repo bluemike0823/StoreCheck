@@ -1,0 +1,96 @@
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\bin\Debug\StoreCheck.exe.config
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\bin\Debug\StoreCheck.exe
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\bin\Debug\StoreCheck.pdb
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\obj\Debug\StoreCheck.csproj.AssemblyReference.cache
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\obj\Debug\StoreCheck.Properties.Resources.resources
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\obj\Debug\StoreCheck.csproj.GenerateResource.cache
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\obj\Debug\StoreCheck.csproj.CoreCompileInputs.cache
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\obj\Debug\StoreCheck.exe
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\obj\Debug\StoreCheck.pdb
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\obj\Debug\StoreCheck.Form1.resources
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\bin\Debug\ChnCharInfo.dll
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\bin\Debug\CommonLib.dll
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\bin\Debug\System.CodeDom.dll
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\bin\Debug\System.Diagnostics.EventLog.dll
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\bin\Debug\System.Management.Automation.dll
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\bin\Debug\System.Security.Principal.Windows.dll
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\bin\Debug\System.ServiceProcess.ServiceController.dll
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\bin\Debug\Microsoft.Management.Infrastructure.dll
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\bin\Debug\Microsoft.Management.Infrastructure.Native.dll
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\bin\Debug\CommonLib.pdb
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\bin\Debug\CommonLib.xml
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\bin\Debug\CommonLib.dll.config
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\bin\Debug\System.CodeDom.xml
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\bin\Debug\System.Diagnostics.EventLog.xml
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\bin\Debug\System.Management.Automation.xml
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\bin\Debug\System.Security.Principal.Windows.xml
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\bin\Debug\System.ServiceProcess.ServiceController.xml
+D:\.PROJECT\2022_03\StoreCheck\StoreCheck\obj\Debug\StoreCheck.csproj.CopyComplete
+D:\.PROJECT\2022_03\StoreCheck _win7\StoreCheck\bin\Debug\StoreCheck.exe.config
+D:\.PROJECT\2022_03\StoreCheck _win7\StoreCheck\bin\Debug\StoreCheck.exe
+D:\.PROJECT\2022_03\StoreCheck _win7\StoreCheck\bin\Debug\StoreCheck.pdb
+D:\.PROJECT\2022_03\StoreCheck _win7\StoreCheck\bin\Debug\ChnCharInfo.dll
+D:\.PROJECT\2022_03\StoreCheck _win7\StoreCheck\bin\Debug\CommonLib.dll
+D:\.PROJECT\2022_03\StoreCheck _win7\StoreCheck\bin\Debug\System.Management.Automation.dll
+D:\.PROJECT\2022_03\StoreCheck _win7\StoreCheck\bin\Debug\Microsoft.Management.Infrastructure.dll
+D:\.PROJECT\2022_03\StoreCheck _win7\StoreCheck\bin\Debug\Microsoft.Management.Infrastructure.Native.dll
+D:\.PROJECT\2022_03\StoreCheck _win7\StoreCheck\bin\Debug\CommonLib.pdb
+D:\.PROJECT\2022_03\StoreCheck _win7\StoreCheck\bin\Debug\CommonLib.xml
+D:\.PROJECT\2022_03\StoreCheck _win7\StoreCheck\bin\Debug\CommonLib.dll.config
+D:\.PROJECT\2022_03\StoreCheck _win7\StoreCheck\bin\Debug\System.Management.Automation.xml
+D:\.PROJECT\2022_03\StoreCheck _win7\StoreCheck\obj\Debug\StoreCheck.csproj.AssemblyReference.cache
+D:\.PROJECT\2022_03\StoreCheck _win7\StoreCheck\obj\Debug\StoreCheck.Form1.resources
+D:\.PROJECT\2022_03\StoreCheck _win7\StoreCheck\obj\Debug\StoreCheck.Properties.Resources.resources
+D:\.PROJECT\2022_03\StoreCheck _win7\StoreCheck\obj\Debug\StoreCheck.csproj.GenerateResource.cache
+D:\.PROJECT\2022_03\StoreCheck _win7\StoreCheck\obj\Debug\StoreCheck.csproj.CoreCompileInputs.cache
+D:\.PROJECT\2022_03\StoreCheck _win7\StoreCheck\obj\Debug\StoreCheck.csproj.CopyComplete
+D:\.PROJECT\2022_03\StoreCheck _win7\StoreCheck\obj\Debug\StoreCheck.exe
+D:\.PROJECT\2022_03\StoreCheck _win7\StoreCheck\obj\Debug\StoreCheck.pdb
+D:\.PROJECT\2022_03\StoreCheck _win7win10\StoreCheck\bin\Debug\StoreCheck.exe.config
+D:\.PROJECT\2022_03\StoreCheck _win7win10\StoreCheck\bin\Debug\StoreCheck.exe
+D:\.PROJECT\2022_03\StoreCheck _win7win10\StoreCheck\bin\Debug\StoreCheck.pdb
+D:\.PROJECT\2022_03\StoreCheck _win7win10\StoreCheck\bin\Debug\ChnCharInfo.dll
+D:\.PROJECT\2022_03\StoreCheck _win7win10\StoreCheck\bin\Debug\System.Management.Automation.dll
+D:\.PROJECT\2022_03\StoreCheck _win7win10\StoreCheck\bin\Debug\Microsoft.Management.Infrastructure.dll
+D:\.PROJECT\2022_03\StoreCheck _win7win10\StoreCheck\bin\Debug\Microsoft.Management.Infrastructure.Native.dll
+D:\.PROJECT\2022_03\StoreCheck _win7win10\StoreCheck\bin\Debug\System.Management.Automation.xml
+D:\.PROJECT\2022_03\StoreCheck _win7win10\StoreCheck\obj\Debug\StoreCheck.csproj.AssemblyReference.cache
+D:\.PROJECT\2022_03\StoreCheck _win7win10\StoreCheck\obj\Debug\StoreCheck.Form1.resources
+D:\.PROJECT\2022_03\StoreCheck _win7win10\StoreCheck\obj\Debug\StoreCheck.Properties.Resources.resources
+D:\.PROJECT\2022_03\StoreCheck _win7win10\StoreCheck\obj\Debug\StoreCheck.csproj.GenerateResource.cache
+D:\.PROJECT\2022_03\StoreCheck _win7win10\StoreCheck\obj\Debug\StoreCheck.csproj.CoreCompileInputs.cache
+D:\.PROJECT\2022_03\StoreCheck _win7win10\StoreCheck\obj\Debug\StoreCheck.csproj.CopyComplete
+D:\.PROJECT\2022_03\StoreCheck _win7win10\StoreCheck\obj\Debug\StoreCheck.exe
+D:\.PROJECT\2022_03\StoreCheck _win7win10\StoreCheck\obj\Debug\StoreCheck.pdb
+D:\.PROJECT\2022_03\StoreCheck_win7win10\StoreCheck\bin\Debug\StoreCheck.exe.config
+D:\.PROJECT\2022_03\StoreCheck_win7win10\StoreCheck\bin\Debug\StoreCheck.exe
+D:\.PROJECT\2022_03\StoreCheck_win7win10\StoreCheck\bin\Debug\StoreCheck.pdb
+D:\.PROJECT\2022_03\StoreCheck_win7win10\StoreCheck\bin\Debug\ChnCharInfo.dll
+D:\.PROJECT\2022_03\StoreCheck_win7win10\StoreCheck\bin\Debug\System.Management.Automation.dll
+D:\.PROJECT\2022_03\StoreCheck_win7win10\StoreCheck\bin\Debug\Microsoft.Management.Infrastructure.dll
+D:\.PROJECT\2022_03\StoreCheck_win7win10\StoreCheck\bin\Debug\Microsoft.Management.Infrastructure.Native.dll
+D:\.PROJECT\2022_03\StoreCheck_win7win10\StoreCheck\bin\Debug\System.Management.Automation.xml
+D:\.PROJECT\2022_03\StoreCheck_win7win10\StoreCheck\obj\Debug\StoreCheck.csproj.AssemblyReference.cache
+D:\.PROJECT\2022_03\StoreCheck_win7win10\StoreCheck\obj\Debug\StoreCheck.Form1.resources
+D:\.PROJECT\2022_03\StoreCheck_win7win10\StoreCheck\obj\Debug\StoreCheck.Properties.Resources.resources
+D:\.PROJECT\2022_03\StoreCheck_win7win10\StoreCheck\obj\Debug\StoreCheck.csproj.GenerateResource.cache
+D:\.PROJECT\2022_03\StoreCheck_win7win10\StoreCheck\obj\Debug\StoreCheck.csproj.CoreCompileInputs.cache
+D:\.PROJECT\2022_03\StoreCheck_win7win10\StoreCheck\obj\Debug\StoreCheck.csproj.CopyComplete
+D:\.PROJECT\2022_03\StoreCheck_win7win10\StoreCheck\obj\Debug\StoreCheck.exe
+D:\.PROJECT\2022_03\StoreCheck_win7win10\StoreCheck\obj\Debug\StoreCheck.pdb
+D:\.PROJECT\2022_03\StoreCheck_ver1.1\StoreCheck\bin\Debug\StoreCheck.exe
+D:\.PROJECT\2022_03\StoreCheck_ver1.1\StoreCheck\bin\Debug\StoreCheck.exe.config
+D:\.PROJECT\2022_03\StoreCheck_ver1.1\StoreCheck\bin\Debug\StoreCheck.pdb
+D:\.PROJECT\2022_03\StoreCheck_ver1.1\StoreCheck\bin\Debug\ChnCharInfo.dll
+D:\.PROJECT\2022_03\StoreCheck_ver1.1\StoreCheck\bin\Debug\System.Management.Automation.dll
+D:\.PROJECT\2022_03\StoreCheck_ver1.1\StoreCheck\bin\Debug\Microsoft.Management.Infrastructure.dll
+D:\.PROJECT\2022_03\StoreCheck_ver1.1\StoreCheck\bin\Debug\Microsoft.Management.Infrastructure.Native.dll
+D:\.PROJECT\2022_03\StoreCheck_ver1.1\StoreCheck\bin\Debug\System.Management.Automation.xml
+D:\.PROJECT\2022_03\StoreCheck_ver1.1\StoreCheck\obj\Debug\StoreCheck.csproj.AssemblyReference.cache
+D:\.PROJECT\2022_03\StoreCheck_ver1.1\StoreCheck\obj\Debug\StoreCheck.Form1.resources
+D:\.PROJECT\2022_03\StoreCheck_ver1.1\StoreCheck\obj\Debug\StoreCheck.Properties.Resources.resources
+D:\.PROJECT\2022_03\StoreCheck_ver1.1\StoreCheck\obj\Debug\StoreCheck.csproj.GenerateResource.cache
+D:\.PROJECT\2022_03\StoreCheck_ver1.1\StoreCheck\obj\Debug\StoreCheck.csproj.CoreCompileInputs.cache
+D:\.PROJECT\2022_03\StoreCheck_ver1.1\StoreCheck\obj\Debug\StoreCheck.csproj.CopyComplete
+D:\.PROJECT\2022_03\StoreCheck_ver1.1\StoreCheck\obj\Debug\StoreCheck.exe
+D:\.PROJECT\2022_03\StoreCheck_ver1.1\StoreCheck\obj\Debug\StoreCheck.pdb

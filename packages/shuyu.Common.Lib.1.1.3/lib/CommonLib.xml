@@ -1,0 +1,2259 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CommonLib</name>
+    </assembly>
+    <members>
+        <member name="T:CommonLib.Model.LogEnum">
+            <summary>
+            日志枚举
+            </summary>
+        </member>
+        <member name="F:CommonLib.Model.LogEnum.Info">
+            <summary>
+            默认日志
+            </summary>
+        </member>
+        <member name="F:CommonLib.Model.LogEnum.Error">
+            <summary>
+            错误日志
+            </summary>
+        </member>
+        <member name="F:CommonLib.Model.LogEnum.Warning">
+            <summary>
+            警告日志
+            </summary>
+        </member>
+        <member name="T:CommonLib.Model.EnumType">
+            <summary>
+            枚举类型
+            </summary>
+        </member>
+        <member name="P:CommonLib.Model.EnumType.Value">
+            <summary>  
+            枚举对象的值  
+            </summary>  
+        </member>
+        <member name="P:CommonLib.Model.EnumType.Name">
+            <summary>  
+            名称  
+            </summary>  
+        </member>
+        <member name="P:CommonLib.Model.EnumType.Desction">
+            <summary>  
+            描述  
+            </summary>  
+        </member>
+        <member name="T:CommonLib.Model.Pages">
+            <summary>
+            分页
+            </summary>
+        </member>
+        <member name="M:CommonLib.Model.Pages.#ctor">
+            <summary>
+            构造函数
+            </summary>
+        </member>
+        <member name="P:CommonLib.Model.Pages.pageSize">
+            <summary>
+            每页行数
+            </summary>
+        </member>
+        <member name="P:CommonLib.Model.Pages.pageNumber">
+            <summary>
+            当前页
+            </summary>
+        </member>
+        <member name="P:CommonLib.Model.Pages.sort">
+            <summary>
+            排序列 字段名称
+            </summary>
+        </member>
+        <member name="P:CommonLib.Model.Pages.order">
+            <summary>
+            排序类型 asc desc
+            </summary>
+        </member>
+        <member name="P:CommonLib.Model.Pages.total">
+            <summary>
+            总记录数 只读
+            </summary>
+        </member>
+        <member name="P:CommonLib.Model.Pages.pages">
+            <summary>
+            总页数 只读参数
+            </summary>
+        </member>
+        <member name="P:CommonLib.Model.Pages.lastPage">
+            <summary>
+            是否是最后一页 只读参数
+            </summary>
+        </member>
+        <member name="T:CommonLib.Model.PinYin">
+            <summary>
+            拼音
+            </summary>
+        </member>
+        <member name="M:CommonLib.Model.PinYin.#ctor">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:CommonLib.Model.PinYin.PingYin">
+            <summary>
+            全部拼音
+            </summary>
+        </member>
+        <member name="P:CommonLib.Model.PinYin.FirstPingYin">
+            <summary>
+            首字母
+            </summary>
+        </member>
+        <member name="T:CommonLib.Model.Table">
+            <summary>
+            表
+            </summary> 
+        </member>
+        <member name="P:CommonLib.Model.Table.Name">
+            <summary>
+            表名称
+            </summary>
+        </member>
+        <member name="P:CommonLib.Model.Table.Comments">
+            <summary>
+            表说明
+            </summary>
+        </member>
+        <member name="P:CommonLib.Model.Table.PrimaryName">
+            <summary>
+            表主键名称
+            </summary>
+        </member>
+        <member name="P:CommonLib.Model.Table.Columns">
+            <summary>
+            列
+            </summary>
+        </member>
+        <member name="P:CommonLib.Model.TableColumn.TableName">
+            <summary>
+            表名称
+            </summary>
+        </member>
+        <member name="P:CommonLib.Model.TableColumn.TableComments">
+            <summary>
+            表说明
+            </summary>
+        </member>
+        <member name="P:CommonLib.Model.TableColumn.Name">
+            <summary>
+            列名称
+            </summary>
+        </member>
+        <member name="P:CommonLib.Model.TableColumn.Comments">
+            <summary>
+            列说明
+            </summary>
+        </member>
+        <member name="P:CommonLib.Model.TableColumn.Type">
+            <summary>
+            字段类型
+            </summary>
+        </member>
+        <member name="P:CommonLib.Model.TableColumn.Length">
+            <summary>
+            字段长度
+            </summary>
+        </member>
+        <member name="P:CommonLib.Model.TableColumn.IsNull">
+            <summary>
+            是否为空
+            </summary>
+        </member>
+        <member name="P:CommonLib.Model.TableColumn.IsPrimaryKey">
+            <summary>
+            是否主键
+            </summary>
+        </member>
+        <member name="P:CommonLib.Model.TableColumn.IsIdentity">
+            <summary>
+            是否标识列
+            </summary>
+        </member>
+        <member name="T:CommonLib.TimeHelper">
+            <summary>
+            时间帮助类
+            </summary>
+        </member>
+        <member name="M:CommonLib.TimeHelper.GetTimeStamp(System.String)">
+            <summary>
+            获取时间戳 毫秒
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.TimeHelper.GetStartDateTime(System.DateTime)">
+            <summary>
+            获取以0点0分0秒开始的日期
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.TimeHelper.JavascriptToDateTime(System.Int64)">
+            <summary>
+            时间戳转为C#格式时间
+            </summary>
+            <param name="timeStamp"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.TimeHelper.DateTimeToJavascript(System.DateTime)">
+            <summary>
+            把时间转换为javascript所使用的时间
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.TimeHelper.DateTimeByUnix(System.DateTime)">
+            <summary>
+            把时间格式转换为Unix时间戳格式
+            </summary>
+            <param name="time"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.TimeHelper.DateTimeToUnix(System.Int64)">
+            <summary>
+            把Unix时间戳转化为时间
+            </summary>
+            <param name="unixTimeStamp"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CommonLib.CmdHelper">
+            <summary>
+            cmd帮助类
+            </summary>
+        </member>
+        <member name="M:CommonLib.CmdHelper.Exec(System.String)">
+            <summary>
+            执行Cmd命令
+            </summary>
+            <param name="cmd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.CmdHelper.Exec(System.Collections.Generic.List{System.String})">
+            <summary>
+            执行Cmd命令
+            </summary>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CommonLib.CacheHelper">
+            <summary>
+            缓存帮助类
+            </summary>
+        </member>
+        <member name="P:CommonLib.CacheHelper.Instance">
+            <summary>
+            单例
+            </summary>
+            <returns>返回类型为Session</returns>
+        </member>
+        <member name="M:CommonLib.CacheHelper.Remove(System.String)">
+            <summary>
+            删除成员
+            </summary>
+            <param name="name"></param>
+        </member>
+        <member name="M:CommonLib.CacheHelper.RemoveAll">
+            <summary>
+            删除全部成员
+            </summary>
+        </member>
+        <member name="P:CommonLib.CacheHelper.Item(System.String)">
+            <summary>
+            本类的索引器
+            </summary>
+            <returns>返回Object成员</returns>
+        </member>
+        <member name="T:CommonLib.HttpHelper">
+            <summary>
+            Http Get Post Put Delete 请求帮助类
+            </summary>
+        </member>
+        <member name="M:CommonLib.HttpHelper.HttpGet(System.String,System.String)">
+            <summary>
+            返回指定Url的页面源码,Get提交
+            </summary>
+            <param name="url">Url地址</param>
+            <param name="encoding">编码格式 gb2312 utf-8,默认 utf-8</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.HttpHelper.HttpPost(System.String,System.String,System.String)">
+            <summary>
+            Post提交
+            </summary>
+            <param name="url">url地址</param>
+            <param name="body">内容</param>
+            <param name="encoding">编码 默认 utf-8</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.HttpHelper.HttpPost(System.String,System.String)">
+            <summary>
+            Post提交
+            </summary>
+            <param name="url">url地址</param>
+            <param name="body">内容</param>
+            <param name="encoding">编码 默认 utf-8</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.HttpHelper.HttpDelete(System.String,System.String,System.String)">
+            <summary>
+            Delete提交
+            </summary>
+            <param name="url">url地址</param>
+            <param name="body">内容</param>
+            <param name="encoding">编码 默认 utf-8</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.HttpHelper.HttpDelete(System.String,System.String)">
+            <summary>
+            Delete提交
+            </summary>
+            <param name="url">url地址</param>
+            <param name="body">内容</param>
+            <param name="encoding">编码 默认 utf-8</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.HttpHelper.HttpPut(System.String,System.String,System.String)">
+            <summary>
+            Delete提交
+            </summary>
+            <param name="url">url地址</param>
+            <param name="body">内容</param>
+            <param name="encoding">编码 默认 utf-8</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.HttpHelper.HttpPut(System.String,System.String)">
+            <summary>
+            Delete提交
+            </summary>
+            <param name="url">url地址</param>
+            <param name="body">内容</param>
+            <param name="encoding">编码 默认 utf-8</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.HttpHelper.HttpRequest(System.String,System.String,System.String,System.String)">
+            <summary>
+            模拟Http请求
+            </summary>
+            <param name="httpUrl">请求地址 http://www.baidu.com/</param>
+            <param name="body">参数:id=123@name=admin </param>
+            <param name="method">请求形式 post get delete put</param>
+            <param name="encoding">请求的页面编码 uft-8,gb2312,GBK</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.HttpHelper.GetStatusCode(System.String,System.String,System.Int32@)">
+            <summary>
+            获取请求地址状态码
+            </summary>
+            <param name="url"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.HttpHelper.GetStatusCode(System.String,System.String)">
+            <summary>
+            获取请求地址状态码
+            </summary>
+            <param name="url"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.HttpHelper.HttpGetStatusCode(System.String,System.String,System.String)">
+            <summary>
+            Get提交 获取状态码
+            </summary>
+            <param name="url"></param>
+            <param name="host"></param>
+            <param name="encoding"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.HttpHelper.HttpPutStatusCode(System.String,System.String,System.String,System.String)">
+            <summary>
+            Delete提交 获取状态码
+            </summary>
+            <param name="url"></param>
+            <param name="body"></param>
+            <param name="encoding"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CommonLib.FileHelper">
+            <summary>
+            文件帮助类
+            </summary>
+        </member>
+        <member name="F:CommonLib.FileHelper.FileLock">
+            <summary>
+            文件写入锁
+            </summary>
+        </member>
+        <member name="M:CommonLib.FileHelper.FileWrite(System.String,System.String,System.Boolean,System.String)">
+            <summary>
+            文件写入方法
+            </summary>
+            <param name="path">文件路径:绝对路径</param>
+            <param name="str">写入内容</param>
+            <param name="append">是否追加</param>
+            <param name="encoding">编码格式</param>
+        </member>
+        <member name="M:CommonLib.FileHelper.FileRead(System.String,System.String)">
+            <summary>
+            文件读取方法
+            </summary>
+            <param name="path">文件路径:绝对路径</param>
+            <param name="encoding">编码格式</param>
+        </member>
+        <member name="M:CommonLib.FileHelper.FileCopy(System.String,System.String,System.Boolean)">
+            <summary>
+            拷贝文件
+            </summary>
+            <param name="sourceFileName">原始文件</param>
+            <param name="destFileName">目标地址</param>
+            <param name="overwrite">是否覆盖</param>
+        </member>
+        <member name="M:CommonLib.FileHelper.FileToBytes(System.String)">
+            <summary>
+            读取文件为 byte[]
+            </summary>
+            <param name="path">文件路径:绝对路径</param>
+        </member>
+        <member name="M:CommonLib.FileHelper.BytesToFile(System.Byte[],System.String)">
+            <summary>
+            byte[] 保存为 文件
+            </summary>
+            <param name="bytes">二进制流</param>
+            <param name="saveFile">文件路径:绝对路径</param>
+        </member>
+        <member name="M:CommonLib.FileHelper.GetFiles(System.String,System.String)">
+             <summary>
+            获取目录下所有文件
+             </summary>
+             <param name="path"></param>
+             <param name="searchPattern"></param>
+             <returns></returns>
+        </member>
+        <member name="M:CommonLib.FileHelper.SavedFolder(System.String)">
+            <summary>
+            返回以当天日期命名的文件夹
+            </summary>
+            <param name="Root">根目录，不定义则用默认的 /upload</param>
+            <returns></returns>
+        </member>
+        <member name="T:CommonLib.FtpHelper">
+            <summary>
+            Ftp帮助类
+            </summary>
+        </member>
+        <member name="T:CommonLib.EnumHelper">
+            <summary>
+            枚举帮助类
+            </summary>
+        </member>
+        <member name="M:CommonLib.EnumHelper.EnumToList``1">
+            <summary>
+            返回枚举对应属性
+            </summary>
+            <typeparam name="T">枚举类</typeparam>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.EnumHelper.GetEnumDescription(System.Enum)">
+            <summary>
+            获取枚举类型描述
+            </summary>
+            <param name="enumValue">枚举值</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.EnumHelper.StringToEnum``1(System.String)">
+            <summary>
+            字符串转枚举
+            </summary>
+            <typeparam name="T">枚举类型</typeparam>
+            <param name="value">名称</param>
+            <returns></returns>
+        </member>
+        <member name="T:CommonLib.DLLHelper">
+            <summary>
+            DLL帮助类
+            </summary>
+        </member>
+        <member name="T:CommonLib.SerializeHelper">
+            <summary>
+            实体对象 序列化 帮助类
+            </summary>
+        </member>
+        <member name="M:CommonLib.SerializeHelper.SerializeObject(System.Object)">
+            <summary>
+            序列化 实体->字符串
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.SerializeHelper.DeserializeObject``1(System.String)">
+            <summary>
+            反序列化 字符串->实体
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CommonLib.ConfigHelper">
+            <summary>
+            Config 配置文件帮助类
+            </summary>
+        </member>
+        <member name="M:CommonLib.ConfigHelper.GetAppSettings(System.String,System.String)">
+            <summary>
+            获取指定目录 AppSettings 配置文件值
+            </summary>
+            <param name="key"></param>
+            <param name="fileName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.ConfigHelper.GetConnectionStrings(System.String,System.String)">
+            <summary>
+            获取指定目录 ConnectionStrings 配置文件值 
+            </summary>
+            <param name="key"></param>
+            <param name="fileName">config/app.config</param>
+            <returns></returns>
+        </member>
+        <member name="T:CommonLib.ImageHepler">
+            <summary>
+            图片操作帮助类 方法不太好 需要后期调整优化
+            </summary>
+        </member>
+        <member name="M:CommonLib.ImageHepler.SaveThumbnailImage(System.String,System.String,System.Int32,System.Int64)">
+            <summary>
+            生成缩略图(仅限JPG图片)
+            </summary>
+            <param name="ImgFileName">原JPG图片路径名</param>
+            <param name="ImgWidth">缩略图宽度,指定为0时按高度等比例缩放</param> 
+            <param name="JpgLevel">缩略图压缩品质</param>
+            <param name="SaveFileName">保存JPG文件路径名</param>
+        </member>
+        <member name="M:CommonLib.ImageHepler.SetWaterMarkText(System.String,System.String,System.Drawing.Font,System.Drawing.Color,System.Single,System.Single,System.Int64)">
+            <summary>
+            设置文字水印并保存图片(仅限JPG图片)
+            </summary>
+            <param name="ImgFileName">原图片</param>
+            <param name="wmText">水印文字</param>
+            <param name="wmFont">文字格式</param>
+            <param name="wmColor">颜色</param>
+            <param name="wmLeft">左边距</param>
+            <param name="wmTop">上边距</param>
+            <param name="JpgLevel">压缩品质</param>
+        </member>
+        <member name="M:CommonLib.ImageHepler.SetWaterMarkImage(System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int64)">
+            <summary>
+            设置图片水印并保存图片(仅限JPG图片)
+            </summary>
+            <param name="ImgFileName">原图片</param>
+            <param name="wmImgFileName">水印图片</param>
+            <param name="wmLeft">左边距,如果为负数,以右边距计算</param>
+            <param name="wmTop">上边距,如果为负数,以下边距计算</param>
+            <param name="wmAlpha">水印透明度</param>
+            <param name="JpgLevel">压缩品质</param>
+        </member>
+        <member name="T:CommonLib.DEncrypt.AesHelper">
+            <summary>
+            Aes 对称加密 解密
+            </summary>
+        </member>
+        <member name="M:CommonLib.DEncrypt.AesHelper.Encrypt(System.String,System.String)">
+            <summary>
+             AES 加密
+            </summary>
+            <param name="str">明文（待加密）</param>
+            <param name="key">密文</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.DEncrypt.AesHelper.Decrypt(System.String,System.String)">
+            <summary>
+             AES 解密
+            </summary>
+            <param name="str">明文（待解密）</param>
+            <param name="key">密文</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.DEncrypt.AesHelper.GetKey(System.String)">
+            <summary>
+            处理KEY AES需要32位加密key
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CommonLib.DEncrypt.RsaHelper">
+            <summary>
+            rsa公私钥加密解密工具类
+            </summary>
+        </member>
+        <member name="M:CommonLib.DEncrypt.RsaHelper.CreateRSAKey">
+            <summary>
+            创建RSA公钥私钥
+            </summary>
+        </member>
+        <member name="M:CommonLib.DEncrypt.RsaHelper.RSAEncrypt(System.String,System.String)">
+            <summary>
+            使用公钥RSA实现加密
+            </summary>
+            <param name="data">加密数据</param>
+            <param name="publicKey">公钥</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.DEncrypt.RsaHelper.RSADecrypt(System.String,System.String)">
+            <summary>
+            使用私钥RSA实现解密
+            </summary>
+            <param name="data">解密数据</param>
+            <param name="privateKey">私钥</param>
+            <returns></returns>
+        </member>
+        <member name="T:CommonLib.DEncryptHelper">
+            <summary>
+            加密解密帮助类
+            </summary>
+        </member>
+        <member name="M:CommonLib.DEncryptHelper.GetMd5(System.String)">
+            <summary>
+            获取字符串MD5加密字符串
+            </summary>
+            <param name="str">原始字符串</param>
+            <returns>MD5加密字符串</returns>
+        </member>
+        <member name="M:CommonLib.DEncryptHelper.Encrypt(System.String,System.String)">
+            <summary>
+            加密方法
+            </summary>
+            <param name="encryptionStr">需要加密字符串</param>
+            <param name="key">密钥 8位 不够补0,超出截取</param>
+            <returns>加密后的字符串</returns>
+        </member>
+        <member name="M:CommonLib.DEncryptHelper.Decrypt(System.String,System.String)">
+            <summary> 
+            解密方法 需要参数 
+            </summary>
+            <param name="decryptStr">需要解密的字符串</param>
+            <param name="key">密匙</param>
+            <returns>解密后的字符串</returns>
+        </member>
+        <member name="T:CommonLib.ListHelper">
+            <summary>
+            List集合操作帮助类
+            </summary>
+        </member>
+        <member name="M:CommonLib.ListHelper.EntityToEntity``2(``0,``1)">
+            <summary>
+            A实体转换成B实体
+            </summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="K"></typeparam>
+            <param name="source">原始数据对象</param>
+            <param name="target">目标对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.ListHelper.ListToList``2(System.Collections.Generic.List{``0},System.Collections.Generic.List{``1})">
+            <summary>
+            A集合转换成B集合
+            </summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="K"></typeparam>
+            <param name="source">源数据对象</param>
+            <param name="target">赋值目标对象</param>
+        </member>
+        <member name="M:CommonLib.ListHelper.GetProperty``1(``0,System.String)">
+            <summary>
+            实体获取属性值
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="source"></param>
+            <param name="Name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.ListHelper.SetProperty``1(``0,System.String,System.Object)">
+            <summary>
+            实体设置赋值
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="source"></param>
+            <param name="Name"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.ListHelper.ListToDataTable``1(System.Collections.Generic.List{``0})">
+            <summary>
+            List集合转DataTable
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.ListHelper.GetCoreType(System.Type)">
+            <summary>
+            如果类型为空否则返回类型返回基本类型
+            </summary>
+            <param name="t"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.ListHelper.ModelComparison``2(System.Collections.Generic.List{``0},System.Collections.Generic.List{``1})">
+            <summary>
+            集合差异比较器,比较两个实体集合值是否一样,
+            true 存在差异 false 不存在差异
+            </summary>
+            <param name="source">源版本实体集合</param>
+            <param name="current">当前版本实体集合</param>
+            <returns>true 存在差异 false 不存在差异</returns>
+        </member>
+        <member name="M:CommonLib.ListHelper.ModelComparison``2(``0,``1)">
+            <summary>
+            实体差异比较器,true 存在差异 false 不存在差异
+            </summary>
+            <param name="source">源版本实体</param>
+            <param name="current">当前版本实体</param>
+            <returns>true 存在差异 false 不存在差异</returns>
+        </member>
+        <member name="T:CommonLib.ZipHelper">
+            <summary>
+            Zip压缩解压缩 帮助类
+            </summary>
+        </member>
+        <member name="M:CommonLib.ZipHelper.ZipFileDirectory(System.String,System.String)">
+            <summary>
+            压缩
+            </summary>
+            <param name="strDirectory">要压缩的目录</param>
+            <param name="zipFile">压缩后的zip地址 绝对地址</param>
+        </member>
+        <member name="M:CommonLib.ZipHelper.ZipFiles(System.Collections.Generic.List{System.String},System.String)">
+            <summary>
+            压缩文件列表
+            </summary>
+            <param name="files">要压缩的文件集合</param>
+            <param name="zipFile">压缩后的zip地址 绝对地址</param>
+        </member>
+        <member name="M:CommonLib.ZipHelper.UnZip(System.String,System.String,System.Boolean)">
+            <summary>
+            解压缩
+            </summary>
+            <param name="zipFile">zip地址</param>
+            <param name="strDirectory">解压</param>
+            <param name="overWrite">是否覆盖已存在文件</param>
+        </member>
+        <member name="T:CommonLib.EmailHelper">
+            <summary>
+            电子邮件帮助类
+            </summary>
+        </member>
+        <member name="P:CommonLib.EmailHelper.UserName">
+            <summary>
+            邮箱用户名
+            </summary>
+        </member>
+        <member name="P:CommonLib.EmailHelper.PpassWord">
+            <summary>
+            邮箱密码
+            </summary>
+        </member>
+        <member name="P:CommonLib.EmailHelper.Port">
+            <summary>
+            Gmail端口号
+            </summary>
+        </member>
+        <member name="P:CommonLib.EmailHelper.Host">
+            <summary>
+            Gmail 服务器
+            </summary>
+        </member>
+        <member name="M:CommonLib.EmailHelper.SendEmail(System.String,System.String,System.String)">
+            <summary>
+            发送邮件
+            </summary>
+            <param name="collectEmail">收件人 aa@qq.com</param>
+            <param name="title">标题</param>
+            <param name="content">内容</param>
+            <returns></returns>
+        </member>
+        <member name="T:CommonLib.RegexHelper">
+            <summary>
+            正则表达式 帮助类
+            </summary>
+        </member>
+        <member name="M:CommonLib.RegexHelper.IsMatch(System.String,System.String)">
+            <summary>
+            验证输入字符串是否与模式字符串匹配，匹配返回true
+            </summary>
+            <param name="input">输入字符串</param>
+            <param name="pattern">模式字符串</param>        
+        </member>
+        <member name="M:CommonLib.RegexHelper.IsMatch(System.String,System.String,System.Text.RegularExpressions.RegexOptions)">
+            <summary>
+            验证输入字符串是否与模式字符串匹配，匹配返回true
+            </summary>
+            <param name="input">输入的字符串</param>
+            <param name="pattern">模式字符串</param>
+            <param name="options">筛选条件</param>
+        </member>
+        <member name="M:CommonLib.RegexHelper.Matches(System.String,System.String)">
+            <summary>
+            搜索匹配的值
+            </summary>
+            <param name="str"></param>
+            <param name="pattern"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.RegexHelper.Split(System.String,System.String)">
+            <summary>
+            正在表达式 拆分字符串
+            </summary>
+            <param name="str"></param>
+            <param name="pattern"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.RegexHelper.Replace(System.String,System.String,System.String)">
+            <summary>
+            正则替换字符串
+            </summary>
+            <param name="input">要搜索匹配项的字符串</param>
+            <param name="pattern">要匹配的正则表达式模式</param>
+            <param name="replacement">替换字符串</param>
+            <returns></returns>
+        </member>
+        <member name="T:CommonLib.RmbHelper">
+            <summary>
+            人民币(钱)帮助类
+            </summary>
+        </member>
+        <member name="M:CommonLib.RmbHelper.CmycurD(System.Decimal)">
+            <summary> 
+            转换人民币大小金额 
+            </summary> 
+            <param name="num">金额</param> 
+            <returns>返回大写形式</returns> 
+        </member>
+        <member name="M:CommonLib.RmbHelper.CmycurD(System.String)">
+            <summary> 
+            一个重载，将字符串先转换成数字在调用CmycurD(decimal num) 
+            </summary> 
+            <param name="numstr">用户输入的金额，字符串形式未转成decimal</param> 
+            <returns></returns> 
+        </member>
+        <member name="T:CommonLib.PinYinHelper">
+            <summary>
+            拼音 帮助类
+            </summary>
+        </member>
+        <member name="M:CommonLib.PinYinHelper.GetPinYin(System.String)">
+            <summary>
+            获取汉字对应的拼音
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.PinYinHelper.GetPinYin(System.Char)">
+            <summary>
+            获取单个汉字全拼 包含多音字
+            </summary>
+            <param name="ch"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.PinYinHelper.HzToPy(System.String)">
+            <summary>
+            汉字转换拼音
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.PinYinHelper.HzToShZm(System.String)">
+            <summary>
+            汉字首字母
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:CommonLib.CalendarHelper">
+            <summary>
+            日历帮助类
+            </summary>
+        </member>
+        <member name="M:CommonLib.CalendarHelper.GetDaysByYear(System.Int32)">
+            <summary>
+            返回本年有多少天
+            </summary>
+            <param name="year">年份</param>
+            <returns>本年的天数</returns>
+        </member>
+        <member name="M:CommonLib.CalendarHelper.GetDaysByYear(System.DateTime)">
+            <summary>
+            本年有多少天
+            </summary>
+            <param name="dt">日期</param>
+            <returns>本天在当年的天数</returns>
+        </member>
+        <member name="M:CommonLib.CalendarHelper.GetDaysByMonth(System.Int32,System.Int32)">
+            <summary>
+            本月有多少天
+            </summary>
+            <param name="year">年</param>
+            <param name="Month">月</param>
+            <returns>天数</returns>
+        </member>
+        <member name="M:CommonLib.CalendarHelper.GetDaysByMonth(System.DateTime)">
+            <summary>
+            本月有多少天
+            </summary>
+            <param name="dt"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.CalendarHelper.GetWeekNameOfDay(System.DateTime)">
+            <summary>
+            返回当前日期的星期名称
+            </summary>
+            <param name="dt">日期</param>
+            <returns>星期名称</returns>
+        </member>
+        <member name="M:CommonLib.CalendarHelper.GetWeekNumberOfDay(System.DateTime)">
+            <summary>
+            返回当前日期的星期编号
+            </summary>
+            <param name="dt">日期</param>
+            <returns>星期数字编号</returns>
+        </member>
+        <member name="M:CommonLib.CalendarHelper.IsRuYear(System.DateTime)">
+            <summary>
+            判断当前日期所属的年份是否是闰年，私有函数
+            </summary>
+            <param name="dt">日期</param>
+            <returns>是闰年：True ，不是闰年：False</returns>
+        </member>
+        <member name="M:CommonLib.CalendarHelper.IsRuYear(System.Int32)">
+            <summary>
+            判断当前年份是否是闰年
+            </summary>
+            <param name="year"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CommonLib.ExcelHelper">
+            <summary>
+            Excel 帮助类
+            </summary>
+        </member>
+        <member name="M:CommonLib.ExcelHelper.InputFromExcel(System.String,System.String)">
+            <summary>
+            将Excel文件导出至DataTable(第一行作为表头)
+            </summary>
+            <param name="excelFilePath">Excel文件路径</param>
+            <param name="tableName">数据表名，如果数据表名错误，默认为第一个数据表名,如：sheet1</param>
+        </member>
+        <member name="M:CommonLib.ExcelHelper.GetExcelTables(System.String)">
+            <summary>
+            获取Excel文件数据表列表
+            </summary>
+        </member>
+        <member name="T:CommonLib.EntityFrameworkHelper">
+            <summary>
+            EntityFramework 开发帮助类
+            </summary>
+        </member>
+        <member name="M:CommonLib.EntityFrameworkHelper.ExAdd``1(System.Data.Entity.DbContext,``0)">
+            <summary>
+            添加
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="DB">DbContext上下文对象</param>
+            <param name="entity">实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.EntityFrameworkHelper.ExTranAdd``1(System.Data.Entity.DbContext,``0)">
+            <summary>
+            事务添加
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="DB">DbContext上下文对象</param>
+            <param name="entity">实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.EntityFrameworkHelper.ExBatchAdd``1(System.Data.Entity.DbContext,System.Collections.Generic.List{``0})">
+            <summary>
+            批量添加 
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="DB"></param>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.EntityFrameworkHelper.ExTranBatchAdd``1(System.Data.Entity.DbContext,System.Collections.Generic.List{``0})">
+            <summary>
+            批量事务添加 
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="DB"></param>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.EntityFrameworkHelper.ExUpdate``1(System.Data.Entity.DbContext,``0)">
+            <summary>
+            更新
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="DB">DbContext上下文对象</param>
+            <param name="entity">实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.EntityFrameworkHelper.ExTranUpdate``1(System.Data.Entity.DbContext,``0)">
+            <summary>
+            事务更新
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="DB">DbContext上下文对象</param>
+            <param name="entity">实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.EntityFrameworkHelper.ExDelete``1(System.Data.Entity.DbContext,``0)">
+            <summary>
+            删除
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="DB">DbContext上下文对象</param>
+            <param name="entity">实体对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.EntityFrameworkHelper.ExDelete``1(System.Data.Entity.DbContext,System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>
+            条件删除
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="DB">DbContext上下文对象</param>
+            <param name="where">where条件表达式</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.EntityFrameworkHelper.ExTranDelete``1(System.Data.Entity.DbContext,System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>
+            条件事务删除
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="DB">DbContext上下文对象</param>
+            <param name="where">where条件表达式</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.EntityFrameworkHelper.ExSelect``1(System.Data.Entity.DbContext,System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}})">
+            <summary>
+            查询
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="DB">DbContext上下文对象</param>
+            <param name="where">是否启用逻辑删除判断,默认禁用</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.EntityFrameworkHelper.ExFind``1(System.Data.Entity.DbContext,System.Guid)">
+            <summary>
+            通过主键查找实体对象
+            </summary>
+            <typeparam name="T">类型</typeparam>
+            <param name="DB"></param>
+            <param name="guid"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.EntityFrameworkHelper.ExPage``2(System.Data.Entity.DbContext,System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},System.Linq.Expressions.Expression{System.Func{``0,``1}},CommonLib.Model.Pages)">
+            <summary>
+            分页
+            </summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="Tkey"></typeparam>
+            <param name="DB"></param>
+            <param name="where"></param>
+            <param name="orderBy"></param>
+            <param name="page"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.EntityFrameworkHelper.ExPage``1(System.Data.Entity.DbContext,System.Linq.Expressions.Expression{System.Func{``0,System.Boolean}},CommonLib.Model.Pages)">
+            <summary>
+            分页
+            </summary>
+            <typeparam name="T"></typeparam> 
+            <param name="DB"></param>
+            <param name="where"></param> 
+            <param name="page"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.EntityFrameworkHelper.ExOrderby``2(System.Linq.IQueryable{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Boolean)">
+            <summary>
+            单个排序通用方法
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <typeparam name="Tkey">排序类型</typeparam>
+            <param name="source">源</param>
+            <param name="orderby">排序条件表达式</param>
+            <param name="isDesc">是否desc 默认否</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.EntityFrameworkHelper.ExOrderby``1(System.Linq.IQueryable{``0},CommonLib.EntityFrameworkHelper.OrderModelField[])">
+            <summary>
+            多个排序通用方法
+            </summary>
+            <typeparam name="T">实体类型</typeparam>
+            <param name="source">源 IQueryable</param>
+            <param name="orderByExpression">排序数组</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.EntityFrameworkHelper.ExWhereIn``2(System.Linq.IQueryable{``0},System.Linq.Expressions.Expression{System.Func{``0,``1}},System.Collections.Generic.IEnumerable{``1})">
+            <summary>
+            扩展方法  支持 in 操作
+            </summary>
+            <typeparam name="T">需要扩展的对象类型</typeparam>
+            <typeparam name="TKey">in 的值类型</typeparam>
+            <param name="source">需要扩展的对象</param>
+            <param name="valueSelector">值选择器 例如c=>c.UserId</param>
+            <param name="values">值集合</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.EntityFrameworkHelper.ExecuteSql(System.Data.Entity.DbContext,System.String,System.Object[])">
+            <summary>
+            
+            </summary>
+            <param name="DB"></param>
+            <param name="sql"></param>
+            <param name="paras"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.EntityFrameworkHelper.ExSelectListBySql``1(System.Data.Entity.DbContext,System.String,System.Object[])">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="DB"></param>
+            <param name="sql"></param>
+            <param name="paras"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.EntityFrameworkHelper.ExSelectBySql``1(System.Data.Entity.DbContext,System.String,System.Object[])">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="DB"></param>
+            <param name="sql"></param>
+            <param name="paras"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.EntityFrameworkHelper.ExecuteTransaction(System.Data.Entity.DbContext,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.Object[]})">
+            <summary>
+            
+            </summary>
+            <param name="DB"></param>
+            <param name="listSql"></param>
+            <param name="listParas"></param>
+        </member>
+        <member name="T:CommonLib.EntityFrameworkHelper.OrderModelField">
+            <summary>
+            排序字段
+            </summary>
+        </member>
+        <member name="P:CommonLib.EntityFrameworkHelper.OrderModelField.isDesc">
+            <summary>
+            排序
+            </summary>
+        </member>
+        <member name="P:CommonLib.EntityFrameworkHelper.OrderModelField.propertyName">
+            <summary>
+            排序字段
+            </summary>
+        </member>
+        <member name="T:CommonLib.WindowsHelper">
+            <summary>
+            系统级帮助类
+            </summary>
+        </member>
+        <member name="M:CommonLib.WindowsHelper.GetMaxScreen">
+            <summary>
+            获取多屏幕中最大分辨率屏幕
+            </summary>
+        </member>
+        <member name="M:CommonLib.WindowsHelper.GetFirewallState">
+            <summary>
+            获取防火墙状态
+            </summary>
+            <returns>true-打开 false-关闭</returns>
+        </member>
+        <member name="M:CommonLib.WindowsHelper.GetHostName">
+            <summary>
+            获取本地计算机的主机名
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.WindowsHelper.GetHostIP(System.String)">
+            <summary>
+            获取本级所有IP4地址
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.WindowsHelper.OpenUrl(System.String)">
+            <summary>
+            浏览器打开指定地址
+            </summary>
+            <param name="url"></param>
+        </member>
+        <member name="T:CommonLib.DataTableHelper">
+            <summary>
+            DataTable 帮助类
+            </summary>
+        </member>
+        <member name="M:CommonLib.DataTableHelper.ToList``1(System.Data.DataTable)">
+            <summary>
+            DataTable转IList集合
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="dataTable"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CommonLib.StringHelper">
+            <summary>
+            字符串帮助类
+            </summary>
+        </member>
+        <member name="M:CommonLib.StringHelper.ToSBC(System.String)">
+             <summary>
+             转全角的函数(SBC case)
+             </summary>
+             <param name="str">任意字符串</param>
+             <returns>全角字符串</returns>
+            <remarks>
+            全角空格为12288，半角空格为32
+            其他字符半角(33-126)与全角(65281-65374)的对应关系是：均相差65248
+            </remarks>
+        </member>
+        <member name="M:CommonLib.StringHelper.ToDBC(System.String)">
+             <summary> 转半角的函数(DBC case) </summary>
+             <param name="str">任意字符串</param>
+             <returns>半角字符串</returns>
+            <remarks>
+            全角空格为12288，半角空格为32
+            其他字符半角(33-126)与全角(65281-65374)的对应关系是：均相差65248
+            </remarks>
+        </member>
+        <member name="M:CommonLib.StringHelper.Substring(System.String,System.Int32,System.Boolean)">
+            <summary>
+            按照字节截取字符串 一个汉字算2个字节
+            </summary>
+            <param name="str">字符串</param>
+            <param name="length">截取数量,单位：字节</param>
+            <param name="flag">返回字符串 是否带省略号;true 带 false 不带</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.StringHelper.UnicodeDecode(System.String)">
+            <summary>
+            unicode 编码;例:((int)'以').ToString("x") 
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.StringHelper.UnicodeEncode(System.String)">
+            <summary>
+            Unicode解码 按照\u分割;例如:(char)int.Parse("4ee5", System.Globalization.NumberStyles.HexNumber) 
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CommonLib.Cookie.CookieHelper">
+            <summary>
+            Cookie帮助类
+            </summary>
+        </member>
+        <member name="M:CommonLib.Cookie.CookieHelper.AddCookies(System.String,System.String,System.String)">
+            <summary>
+            添加Cookies
+            </summary>
+            <param name="name">Cookie名称</param>
+            <param name="value">Cookie值</param>
+            <param name="Domain">Cookie作用域</param>
+        </member>
+        <member name="M:CommonLib.Cookie.CookieHelper.GetCookies(System.String)">
+            <summary>
+            读取 Cookie
+            </summary>
+            <param name="name">Cookie值</param>
+        </member>
+        <member name="M:CommonLib.Cookie.CookieHelper.RemoveCookies(System.String)">
+            <summary>
+            移除 Cookie
+            </summary>
+            <param name="name">Cookie值</param>
+        </member>
+        <member name="T:CommonLib.DbHelper.DbContext">
+            <summary>
+            数据库上下文对象
+            </summary>
+        </member>
+        <member name="P:CommonLib.DbHelper.DbContext.ConnString">
+            <summary>
+            连接字符串
+            </summary>
+        </member>
+        <member name="P:CommonLib.DbHelper.DbContext.SqlType">
+            <summary>
+            数据库类型 默认SqlServer 
+            </summary>
+        </member>
+        <member name="P:CommonLib.DbHelper.DbContext.Conn">
+            <summary>
+            数据库对象
+            </summary>
+        </member>
+        <member name="P:CommonLib.DbHelper.DbContext.Trans">
+            <summary>
+            事务对象
+            </summary>
+        </member>
+        <member name="T:CommonLib.DbHelper.Factory">
+            <summary>
+            数据库帮助类 工厂入口
+            </summary>
+        </member>
+        <member name="P:CommonLib.DbHelper.Factory.Context">
+            <summary>
+            上下文对象
+            </summary>
+        </member>
+        <member name="P:CommonLib.DbHelper.Factory.IDBhelper">
+            <summary>
+            数据库初始化接口
+            </summary>
+        </member>
+        <member name="T:CommonLib.DbHelper.IDBhelper">
+            <summary>
+            数据库DB 帮助类接口
+            </summary>
+        </member>
+        <member name="M:CommonLib.DbHelper.IDBhelper.ExecuteReader(System.String)">
+            <summary>
+            返回 IDataReader
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <returns>返回IDataReader</returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.IDBhelper.ExecuteReader(System.String,System.Object)">
+            <summary>
+            返回IDataReader
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <param name="Params">object参数数组</param>
+            <returns>返回IDataReader</returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.IDBhelper.ExecuteReader(System.String,System.Object[])">
+            <summary>
+            返回 IDataReader
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <param name="Params">object参数数组</param>
+            <returns>返回值 IDataReader类型的参数</returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.IDBhelper.ExecuteTable(System.String)">
+            <summary>
+            返回DataTable
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.IDBhelper.ExecuteTable(System.String,System.Object)">
+            <summary>
+            返回 DataTable
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <param name="Params">object参数数组</param>
+            <returns>返回值 DataTable类型的参数</returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.IDBhelper.ExecuteTable(System.String,System.Object[])">
+            <summary>
+            返回 DataTable
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <param name="Params">object参数数组</param>
+            <returns>返回值 DataTable类型的参数</returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.IDBhelper.ExecuteTablePage(System.Int32@,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.Object[])">
+            <summary>
+            分页存储过程 返回DataTable
+            </summary>
+            <param name="total">输出参数 总数量</param>
+            <param name="tbName">表名(多表逗号隔开)</param>
+            <param name="Fields">字段列表</param>
+            <param name="OrderBy">排序</param>
+            <param name="PageSize">每页数量</param>
+            <param name="PageIndex">页码</param>
+            <param name="Where">where条件</param>
+            <param name="Params">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.IDBhelper.ExecuteScalar(System.String)">
+            <summary>
+            返回sql语句的查询结果
+            </summary>
+            <param name="sqlStr">SQL语句</param>
+            <returns>返回的是一个字符串</returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.IDBhelper.ExecuteScalar(System.String,System.Object)">
+            <summary>
+            返回 object
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <param name="Params">object参数数组</param>
+            <returns>返回值 int类型的参数</returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.IDBhelper.ExecuteScalar(System.String,System.Object[])">
+            <summary>
+            返回 object
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <param name="Params">object参数数组</param>
+            <returns>返回值 int类型的参数</returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.IDBhelper.ExecuteScalars(System.String)">
+            <summary>
+            返回查询的第一个字段值
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.IDBhelper.ExecuteScalars(System.String,System.Object)">
+            <summary>
+            返回查询的第一个字段值,逗号隔开
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <param name="Params">参数列表</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.IDBhelper.ExecuteScalars(System.String,System.Object[])">
+            <summary>
+            返回查询的第一个字段值,逗号隔开
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <param name="Params">参数列表</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.IDBhelper.ExecuteNonQuery(System.String)">
+            <summary>
+            执行ExecuteNonQuery
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.IDBhelper.ExecuteNonQuery(System.String,System.Object)">
+            <summary>
+            执行ExecuteNonQuery
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <param name="Params">object参数数组</param>
+            <returns>返回值 int类型的参数</returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.IDBhelper.ExecuteNonQuery(System.String,System.Object[])">
+            <summary>
+            执行 ExecuteNonQuery
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <param name="Params">object参数数组</param>
+            <returns>返回值 int类型的参数</returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.IDBhelper.AddParam(System.String,System.Data.SqlDbType,System.Int32,System.Object)">
+            <summary>
+            添加 mssql 参数话查询 参数
+            </summary>
+            <param name="ParamName">参数名 @名称 </param>
+            <param name="sqlType">参数类型</param>
+            <param name="Size">参数的长度</param>
+            <param name="value">参数的值</param>
+            <returns>返回 SqlParameter 对象</returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.IDBhelper.AddParam(System.String,System.Object)">
+            <summary>
+            添加 mssql 参数话查询 参数
+            </summary>
+            <param name="ParamName">参数名 @名称</param>
+            <param name="value">参数的值</param>
+            <returns>返回 SqlParameter 对象</returns>
+        </member>
+        <member name="T:CommonLib.DbHelper.MsSqlServer">
+            <summary>
+            MsSqlServer 数据库帮助类
+            </summary>
+        </member>
+        <member name="P:CommonLib.DbHelper.MsSqlServer.Context">
+            <summary>
+            数据库上下文对象
+            </summary>
+        </member>
+        <member name="M:CommonLib.DbHelper.MsSqlServer.ExecuteReader(System.String)">
+            <summary>
+            返回 IDataReader
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <returns>返回IDataReader</returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.MsSqlServer.ExecuteReader(System.String,System.Object)">
+            <summary>
+            返回IDataReader
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <param name="Params">object参数数组</param>
+            <returns>返回IDataReader</returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.MsSqlServer.ExecuteReader(System.String,System.Object[])">
+            <summary>
+            返回 IDataReader
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <param name="Params">object参数数组</param>
+            <returns>返回值 IDataReader类型的参数</returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.MsSqlServer.ExecuteTable(System.String)">
+            <summary>
+            返回DataTable
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.MsSqlServer.ExecuteTable(System.String,System.Object)">
+            <summary>
+            返回 DataTable
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <param name="Params">object参数数组</param>
+            <returns>返回值 DataTable类型的参数</returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.MsSqlServer.ExecuteTable(System.String,System.Object[])">
+            <summary>
+            返回 DataTable
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <param name="Params">object参数数组</param>
+            <returns>返回值 DataTable类型的参数</returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.MsSqlServer.ExecuteTablePage(System.Int32@,System.String,System.String,System.String,System.Int32,System.Int32,System.String,System.Object[])">
+            <summary>
+            分页存储过程 返回DataTable
+            </summary>
+            <param name="total">输出参数 总数量</param>
+            <param name="tbName">表名(多表逗号隔开)</param>
+            <param name="Fields">字段列表</param>
+            <param name="OrderBy">排序</param>
+            <param name="PageSize">每页数量</param>
+            <param name="PageIndex">页码</param>
+            <param name="Where">where条件</param>
+            <param name="Params">参数</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.MsSqlServer.ExecuteScalar(System.String)">
+            <summary>
+            返回sql语句的查询结果
+            </summary>
+            <param name="sqlStr">SQL语句</param>
+            <returns>返回的是一个字符串</returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.MsSqlServer.ExecuteScalar(System.String,System.Object)">
+            <summary>
+            返回 object
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <param name="Params">object参数数组</param>
+            <returns>返回值 int类型的参数</returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.MsSqlServer.ExecuteScalar(System.String,System.Object[])">
+            <summary>
+            返回 object
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <param name="Params">object参数数组</param>
+            <returns>返回值 int类型的参数</returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.MsSqlServer.ExecuteScalars(System.String)">
+            <summary>
+            返回查询的第一个字段值
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.MsSqlServer.ExecuteScalars(System.String,System.Object)">
+            <summary>
+            返回查询的第一个字段值,逗号隔开
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <param name="Params">参数列表</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.MsSqlServer.ExecuteScalars(System.String,System.Object[])">
+            <summary>
+            返回查询的第一个字段值,逗号隔开
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <param name="Params">参数列表</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.MsSqlServer.ExecuteNonQuery(System.String)">
+            <summary>
+            执行ExecuteNonQuery
+            </summary>
+            <param name="sqlStr">sql语句</param> 
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.MsSqlServer.ExecuteNonQuery(System.String,System.Object)">
+            <summary>
+            执行ExecuteNonQuery
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <param name="Params">object参数数组</param>
+            <returns>返回值 int类型的参数</returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.MsSqlServer.ExecuteNonQuery(System.String,System.Object[])">
+            <summary>
+            执行 ExecuteNonQuery
+            </summary>
+            <param name="sqlStr">sql语句</param>
+            <param name="Params">object参数数组</param>
+            <returns>返回值 int类型的参数</returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.MsSqlServer.AddParam(System.String,System.Data.SqlDbType,System.Int32,System.Object)">
+            <summary>
+            添加 mssql 参数话查询 参数
+            </summary>
+            <param name="ParamName">参数名 @名称 </param>
+            <param name="sqlType">参数类型</param>
+            <param name="Size">参数的长度</param>
+            <param name="value">参数的值</param>
+            <returns>返回 SqlParameter 对象</returns>
+        </member>
+        <member name="M:CommonLib.DbHelper.MsSqlServer.AddParam(System.String,System.Object)">
+            <summary>
+            添加 mssql 参数化查询 参数
+            </summary>
+            <param name="ParamName">参数名 @名称</param>
+            <param name="value">参数的值</param>
+            <returns>返回 SqlParameter 对象</returns>
+        </member>
+        <member name="T:CommonLib.DbHelper.SqlType">
+            <summary>
+            数据库类型
+            </summary>
+        </member>
+        <member name="F:CommonLib.DbHelper.SqlType.MsSqlServer">
+            <summary>
+            MsSqlServer
+            </summary>
+        </member>
+        <member name="F:CommonLib.DbHelper.SqlType.MySql">
+            <summary>
+            MySql
+            </summary>
+        </member>
+        <member name="F:CommonLib.DbHelper.SqlType.Oracle">
+            <summary>
+            Oracle
+            </summary>
+        </member>
+        <member name="F:CommonLib.DbHelper.SqlType.SQLite">
+            <summary>
+            SQLite
+            </summary>
+        </member>
+        <member name="F:CommonLib.DbHelper.SqlType.Odbc">
+            <summary>
+            Odbc
+            </summary>
+        </member>
+        <member name="P:CommonLib.DbHelper.Table.IdBhelper">
+            <summary>
+            缓存帮助类
+            </summary>
+        </member>
+        <member name="P:CommonLib.DbHelper.Table.DicTable">
+            <summary>
+            表结构
+            </summary>
+        </member>
+        <member name="M:CommonLib.DbHelper.Table.GetTables">
+            <summary>
+            获取数据库表字段实体
+            </summary> 
+            <returns></returns>
+        </member>
+        <member name="T:CommonLib.Log4Helper">
+            <summary>
+            log4日志
+            </summary>
+        </member>
+        <member name="M:CommonLib.Log4Helper.WriteLog(System.String)">
+            <summary>
+            记录Info日志
+            </summary>
+            <param name="info">info信息</param>
+        </member>
+        <member name="M:CommonLib.Log4Helper.WriteLog(System.String,System.Exception)">
+            <summary>
+            记录Error日志
+            </summary>
+            <param name="info">info信息</param>
+            <param name="se">异常信息</param>
+        </member>
+        <member name="T:CommonLib.LogHelper">
+            <summary>
+            日志帮助类
+            </summary>
+        </member>
+        <member name="M:CommonLib.LogHelper.AddLog(System.String,CommonLib.Model.LogEnum)">
+            <summary>
+            新增日志
+            </summary>
+            <param name="log">日志内容</param>
+            <param name="type">日志类型</param>
+        </member>
+        <member name="T:CommonLib.Extended.ConvertExtended">
+            <summary>
+            实体对象扩展
+            </summary>
+        </member>
+        <member name="M:CommonLib.Extended.ConvertExtended.ExToLong(System.String)">
+            <summary>
+            转换成long类型
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.Extended.ConvertExtended.ExToInt(System.String)">
+            <summary>
+            转换成int整形
+            </summary>
+            <param name="str"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CommonLib.Extended.EntityExtended">
+            <summary>
+            实体对象扩展
+            </summary>
+        </member>
+        <member name="M:CommonLib.Extended.EntityExtended.ExToEntity``2(``0,``1)">
+            <summary>
+            父级赋值子级操作 扩展
+            </summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="K"></typeparam>
+            <param name="source">原始数据对象</param>
+            <param name="target">目标对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.Extended.EntityExtended.ExListToEntity``2(System.Collections.Generic.List{``0},System.Collections.Generic.List{``1})">
+            <summary>
+            List父级赋值给子级 扩展
+            </summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="K"></typeparam>
+            <param name="source">源数据对象</param>
+            <param name="target">赋值目标对象</param>
+        </member>
+        <member name="M:CommonLib.Extended.EntityExtended.GetProperty``1(``0,System.String)">
+            <summary>
+            实体获取属性值
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="source"></param>
+            <param name="Name"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.Extended.EntityExtended.ExToList``1(System.Data.DataTable)">
+            <summary>
+            DataTable转IList集合
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="dataTable"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.Extended.EntityExtended.ExToDataTable``1(System.Collections.Generic.List{``0})">
+            <summary>
+            List T 集合转DataTable 
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="list"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.Extended.EntityExtended.GetCoreType(System.Type)">
+            <summary>
+            如果类型为空否则返回类型返回基本类型
+            </summary>
+        </member>
+        <member name="T:CommonLib.Extended.IsNullOrEmptyExtended">
+            <summary>
+            对象非空验证 扩展
+            </summary>
+        </member>
+        <member name="M:CommonLib.Extended.IsNullOrEmptyExtended.ExIsNullOrEmpty``1(``0)">
+            <summary>
+            非空验证
+            </summary>
+            <param name="obj"></param> 
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.Extended.IsNullOrEmptyExtended.ExIsNullOrEmpty(System.DateTime)">
+            <summary>
+            非空验证
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.Extended.IsNullOrEmptyExtended.ExIsNullOrEmpty(System.Nullable{System.DateTime})">
+            <summary>
+            非空验证
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.Extended.IsNullOrEmptyExtended.ExIsNullOrEmpty(System.String)">
+            <summary>
+            非空验证
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.Extended.IsNullOrEmptyExtended.ExIsNullOrEmpty(System.Guid)">
+            <summary>
+            非空验证
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.Extended.IsNullOrEmptyExtended.ExIsNullOrEmpty(System.Nullable{System.Guid})">
+            <summary>
+            非空验证
+            </summary>
+            <param name="obj"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CommonLib.Extended.Lambda">
+            <summary>
+            Lambda扩展类
+            </summary>
+        </member>
+        <member name="M:CommonLib.Extended.Lambda.True``1">
+            <summary>
+            创建一个值恒为 <c>true</c> 的表达式。
+            </summary>
+            <typeparam name="T">表达式方法类型</typeparam>
+            <returns>一个值恒为 <c>true</c> 的表达式。</returns>
+        </member>
+        <member name="M:CommonLib.Extended.Lambda.False``1">
+            <summary>
+            创建一个值恒为 <c>false</c> 的表达式。
+            </summary>
+            <typeparam name="T">表达式方法类型</typeparam>
+            <returns>一个值恒为 <c>false</c> 的表达式。</returns>
+        </member>
+        <member name="M:CommonLib.Extended.Lambda.Or``1(System.Linq.Expressions.Expression{``0},System.Linq.Expressions.Expression{``0})">
+            <summary>
+            使用 Expression.OrElse 的方式拼接两个 System.Linq.Expression。
+            </summary>
+            <typeparam name="T">表达式方法类型</typeparam>
+            <param name="left">左边的 System.Linq.Expression 。</param>
+            <param name="right">右边的 System.Linq.Expression。</param>
+            <returns>拼接完成的 System.Linq.Expression。</returns>
+        </member>
+        <member name="M:CommonLib.Extended.Lambda.And``1(System.Linq.Expressions.Expression{``0},System.Linq.Expressions.Expression{``0})">
+            <summary>
+            使用 Expression.AndAlso 的方式拼接两个 System.Linq.Expression。
+            </summary>
+            <typeparam name="T">表达式方法类型</typeparam>
+            <param name="left">左边的 System.Linq.Expression 。</param>
+            <param name="right">右边的 System.Linq.Expression。</param>
+            <returns>拼接完成的 System.Linq.Expression。</returns>
+        </member>
+        <member name="M:CommonLib.Extended.Lambda.MakeBinary``1(System.Linq.Expressions.Expression{``0},System.Linq.Expressions.Expression{``0},System.Func{System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Linq.Expressions.Expression})">
+            <summary>
+            使用自定义的方式拼接两个 System.Linq.Expression。
+            </summary>
+            <typeparam name="T">表达式方法类型</typeparam>
+            <param name="left">左边的 System.Linq.Expression 。</param>
+            <param name="right">右边的 System.Linq.Expression。</param>
+            <param name="func"> </param>
+            <returns>拼接完成的 System.Linq.Expression。</returns>
+        </member>
+        <member name="M:CommonLib.Extended.Lambda.MakeBinary(System.Linq.Expressions.LambdaExpression,System.Linq.Expressions.LambdaExpression,System.Func{System.Linq.Expressions.Expression,System.Linq.Expressions.Expression,System.Linq.Expressions.Expression})">
+            <summary>
+            拼接两个 <paramref>
+                   <name>System.Linq.Expression</name>
+                 </paramref>  ，两个 <paramref>
+                                    <name>System.Linq.Expression</name>
+                                  </paramref>  的参数必须完全相同。
+            </summary>
+            <param name="left">左边的 <paramref>
+                                     <name>System.Linq.Expression</name>
+                                   </paramref> </param>
+            <param name="right">右边的 <paramref>
+                                      <name>System.Linq.Expression</name>
+                                    </paramref> </param>
+            <param name="func">表达式拼接的具体逻辑</param>
+            <returns>拼接完成的 <paramref>
+                             <name>System.Linq.Expression</name>
+                           </paramref> </returns>
+        </member>
+        <member name="T:CommonLib.LambdaHelper`1">
+            <summary>
+            LambdaHelper帮助类
+            </summary>
+        </member>
+        <member name="M:CommonLib.LambdaHelper`1.Equal``1(System.String,``0)">
+            <summary>
+            创建lambda表达式：p=>p.propertyName == propertyValue
+            </summary>
+            <typeparam name="T1"></typeparam>
+            <param name="name"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.LambdaHelper`1.NotEqual``1(System.String,``0)">
+            <summary>
+            创建lambda表达式：p=>p.propertyName != propertyValue
+            </summary>
+            <typeparam name="T1"></typeparam>
+            <param name="name"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.LambdaHelper`1.GreaterThan``1(System.String,``0)">
+            <summary>
+            创建lambda表达式：p=>p.propertyName > propertyValue
+            </summary>
+            <typeparam name="T1"></typeparam>
+            <param name="name"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.LambdaHelper`1.LessThan``1(System.String,``0)">
+            <summary>
+            创建lambda表达式：p=>p.propertyName
+            </summary>
+            <typeparam name="T1"></typeparam>
+            <param name="name"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.LambdaHelper`1.GreaterThanOrEqual``1(System.String,``0)">
+            <summary>
+            创建lambda表达式：p=>p.propertyName >= propertyValue
+            </summary>
+            <typeparam name="T1"></typeparam>
+            <param name="name"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.LambdaHelper`1.LessThanOrEqual``1(System.String,``0)">
+            <summary>
+            创建lambda表达式：p=>p.propertyName = propertyValue
+            </summary>
+            <typeparam name="T1"></typeparam>
+            <param name="name"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.LambdaHelper`1.StartsWith(System.String,System.String)">
+            <summary>
+            创建lambda表达式：p=>p.propertyName.Contains(propertyValue)
+            </summary>
+            <param name="name"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.LambdaHelper`1.EndsWith(System.String,System.String)">
+            <summary>
+            创建lambda表达式：p=>p.propertyName.EndsWith(propertyValue)
+            </summary> 
+            <param name="name"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.LambdaHelper`1.Contains(System.String,System.String)">
+            <summary>
+            创建lambda表达式：p=>p.propertyName.Contains(propertyValue)
+            </summary> 
+            <param name="name"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.LambdaHelper`1.NotContains(System.String,System.String)">
+            <summary>
+            创建lambda表达式：!(p=>p.propertyName.Contains(propertyValue))
+            </summary>
+            <param name="name"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CommonLib.EntityHelper">
+            <summary>
+            实体类帮助类
+            </summary>
+        </member>
+        <member name="M:CommonLib.EntityHelper.SetBase``2(``0,``1)">
+            <summary>
+            设置赋值
+            </summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="K"></typeparam>
+            <param name="source">源数据对象</param>
+            <param name="target">赋值目标对象</param>
+        </member>
+        <member name="M:CommonLib.EntityHelper.SetBase``2(System.Collections.Generic.List{``0},System.Collections.Generic.List{``1})">
+            <summary>
+            设置赋值
+            </summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="K"></typeparam>
+            <param name="source">源数据对象</param>
+            <param name="target">赋值目标对象</param>
+        </member>
+        <member name="M:CommonLib.EntityHelper.SetUpdateBase``2(``0,``1)">
+            <summary>
+            更新赋值
+            </summary>
+            <typeparam name="T"></typeparam>
+            <typeparam name="K"></typeparam>
+            <param name="source">源数据对象</param>
+            <param name="target">赋值目标对象</param>
+        </member>
+        <member name="M:CommonLib.EntityHelper.GetValue``1(``0,System.String)">
+            <summary>
+            获取属性值
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="source"></param>
+            <param name="Name"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CommonLib.DingDing">
+            <summary>
+            钉钉帮助类
+            </summary>
+        </member>
+        <member name="M:CommonLib.DingDing.SendWebhook(System.String,System.String,System.Collections.Generic.List{System.String},System.Boolean)">
+            <summary>
+            发送钉钉群消息
+            </summary>
+            <param name="url"></param>
+            <param name="content">内容</param>
+            <param name="mobiles">@人的手机号</param>
+            <param name="isAtAll">是否@所有人 默认false</param>
+        </member>
+        <member name="M:CommonLib.DingDing.SendDingDing(System.String,System.String,System.Boolean)">
+            <summary>
+            发送钉钉群消息
+            </summary>
+            <param name="content"></param>
+            <param name="isAtAll"></param>
+        </member>
+        <member name="T:CommonLib.Tools">
+            <summary>
+            未分类工具
+            </summary>
+        </member>
+        <member name="M:CommonLib.Tools.Base64SaveImage(System.String)">
+            <summary>
+            将Base64字符串转换为图片
+            </summary>
+            <param name="Base64Str"></param> 
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.Tools.Distance(System.Double,System.Double,System.Double,System.Double)">
+            <summary>
+            给定的经度1，纬度1；经度2，纬度2. 计算2个经纬度之间的距离。
+            </summary>
+            <param name="lat1">经度1(-180--180)</param>
+            <param name="lon1">纬度1(-90--90)</param>
+            <param name="lat2">经度2</param>
+            <param name="lon2">纬度2</param>
+            <returns>距离 米</returns>
+        </member>
+        <member name="M:CommonLib.Tools.ConvertDegreesToRadians(System.Double)">
+            <summary>
+            将角度换算为弧度。
+            </summary>
+            <param name="degrees">角度</param>
+            <returns>弧度</returns>
+        </member>
+        <member name="T:CommonLib.WeiXin.Data">
+            <summary>
+            存储微信数据
+            </summary>
+        </member>
+        <member name="P:CommonLib.WeiXin.Data.ToUserName">
+            <summary>
+            开发者微信号
+            </summary>
+        </member>
+        <member name="P:CommonLib.WeiXin.Data.FromUserName">
+            <summary>
+            发送方帐号（一个OpenID）
+            </summary>
+        </member>
+        <member name="P:CommonLib.WeiXin.Data.CreateTime">
+            <summary>
+            消息创建时间 （整型）
+            </summary>
+        </member>
+        <member name="P:CommonLib.WeiXin.Data.MsgType">
+            <summary>
+            消息类型
+            </summary>
+        </member>
+        <member name="P:CommonLib.WeiXin.Data.Content">
+            <summary>
+            消息内容
+            </summary>
+        </member>
+        <member name="P:CommonLib.WeiXin.Data.MsgId">
+            <summary>
+            消息id，64位整型
+            </summary>
+        </member>
+        <member name="P:CommonLib.WeiXin.Data.PicUrl">
+            <summary>
+            图片链接地址
+            </summary>
+        </member>
+        <member name="P:CommonLib.WeiXin.Data.MediaId">
+            <summary>
+            图片/语音/视频 消息媒体id，可以调用多媒体文件下载接口拉取数据。
+            </summary>
+        </member>
+        <member name="P:CommonLib.WeiXin.Data.Format">
+            <summary>
+            语音格式，如amr，speex等
+            </summary>
+        </member>
+        <member name="P:CommonLib.WeiXin.Data.Recognition">
+            <summary>
+            语音识别结果，UTF8编码
+            </summary>
+        </member>
+        <member name="P:CommonLib.WeiXin.Data.ThumbMediaId">
+            <summary>
+            视频消息缩略图的媒体id，可以调用多媒体文件下载接口拉取数据。
+            </summary>
+        </member>
+        <member name="P:CommonLib.WeiXin.Data.Label">
+            <summary>
+            地理位置信息
+            </summary>
+        </member>
+        <member name="P:CommonLib.WeiXin.Data.Location_X">
+            <summary>
+            地理位置维度
+            </summary>
+        </member>
+        <member name="P:CommonLib.WeiXin.Data.Location_Y">
+            <summary>
+            地理位置经度
+            </summary>
+        </member>
+        <member name="P:CommonLib.WeiXin.Data.Scale">
+            <summary>
+            地图缩放大小
+            </summary>
+        </member>
+        <member name="P:CommonLib.WeiXin.Data.Title">
+            <summary>
+            消息标题
+            </summary>
+        </member>
+        <member name="P:CommonLib.WeiXin.Data.Url">
+            <summary>
+            消息链接
+            </summary>
+        </member>
+        <member name="P:CommonLib.WeiXin.Data.Description">
+            <summary>
+            消息描述
+            </summary>
+        </member>
+        <member name="P:CommonLib.WeiXin.Data.Event">
+            <summary>
+            事件类型，subscribe(订阅)、unsubscribe(取消订阅)
+            </summary>
+        </member>
+        <member name="P:CommonLib.WeiXin.Data.EventKey">
+            <summary>
+            事件KEY值，与自定义菜单接口中KEY值对应
+            </summary>
+        </member>
+        <member name="P:CommonLib.WeiXin.Data.PostXml">
+            <summary>
+            接收的xml
+            </summary>
+        </member>
+        <member name="T:CommonLib.WeiXin.MsgType">
+            <summary>
+            MsgType 枚举类型
+            </summary>
+        </member>
+        <member name="F:CommonLib.WeiXin.MsgType.text">
+            <summary>
+            文本消息
+            </summary>
+        </member>
+        <member name="F:CommonLib.WeiXin.MsgType.image">
+            <summary>
+            图片消息
+            </summary>
+        </member>
+        <member name="F:CommonLib.WeiXin.MsgType.voice">
+            <summary>
+            语音消息
+            </summary>
+        </member>
+        <member name="F:CommonLib.WeiXin.MsgType.video">
+            <summary>
+            视频消息
+            </summary>
+        </member>
+        <member name="F:CommonLib.WeiXin.MsgType.music">
+            <summary>
+            音乐消息
+            </summary>
+        </member>
+        <member name="F:CommonLib.WeiXin.MsgType.news">
+            <summary>
+            图文消息
+            </summary>
+        </member>
+        <member name="F:CommonLib.WeiXin.MsgType.location">
+            <summary>
+            地理位置消息
+            </summary>
+        </member>
+        <member name="F:CommonLib.WeiXin.MsgType.link">
+            <summary>
+            链接消息
+            </summary>
+        </member>
+        <member name="F:CommonLib.WeiXin.MsgType.Event">
+            <summary>
+            推送事件
+            </summary>
+        </member>
+        <member name="T:CommonLib.WeiXin.wx">
+            <summary>
+            获取并初始化微信数据
+            </summary>
+        </member>
+        <member name="M:CommonLib.WeiXin.wx.check(System.String)">
+            <summary>
+            效验消息的真实性
+            </summary>
+        </member>
+        <member name="M:CommonLib.WeiXin.wx.GetData">
+            <summary>
+            获取并设置数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CommonLib.WeiXin.wx.send(System.String,CommonLib.WeiXin.MsgType)">
+            <summary>
+            发送消息
+            </summary>
+            <param name="Content">消息内容;news图文信息 需要组合好的一个串</param>
+            <param name="msgType">消息类型 枚举类型</param>
+        </member>
+    </members>
+</doc>
